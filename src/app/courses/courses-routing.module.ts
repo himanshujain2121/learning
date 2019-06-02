@@ -9,7 +9,10 @@ const routes: Routes = [
     path:'', component:CourseListComponent,
   },
   {
-    path:'course/id', component:CourseDetailComponent
+    path:'course/1', component:CourseDetailComponent
+  },
+  {
+    path:'course/2', component:CourseDetailComponent
   }
 ];
 
