@@ -1,0 +1,19 @@
+{
+  "courses":[
+    {
+      "courseId": "1",
+      "courseName": "Angular",
+      "courseDescription": "Angular 8"
+    },
+    {
+      "courseId": "2",
+      "courseName": "java",
+      "courseDescription": "java 8"
+    },
+    {
+      "courseId": "3",
+      "courseName": "spring",
+      "courseDescription": "spring 5"
+    }
+  ]
+}
