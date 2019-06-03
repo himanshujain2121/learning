@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { CoursesService } from '../courses.service';
+import { items } from '../../model/item';
 
 @Component({
   selector: 'app-course-featured',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CourseFeaturedComponent implements OnInit {
 
-  constructor() { }
+  jeansData:items[] = [];
+  constructor( private courseService:CoursesService ) { }
 
   ngOnInit() {
+    this.courseService.getJeansItems().subscribe((data) => {
+      this.jeansData = data.items;
+      console.log(this.jeansData);
+    });
+    
   }
 
 }
