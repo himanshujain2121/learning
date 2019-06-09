@@ -1,15 +1,23 @@
 <div>
-  <section class="featured-blog mtb-40">
+  <section class="-blog mtb-40">
     <div class="container">
       <div class="row">
-        <div class="col-md-4" *ngFor="let jeansD of jeansData">
-          <div class="blog-box" >
-            <img src="assets/images/shop-images/img1.jpg" alt="img" />
-            <h3>{{jeansD.itemName}}</h3>
-            <p>{{jeansD.itemDescription}}</p>
-            <p>{{jeansD.itemPrice}}</p>
-            <p>{{jeansD.itemSize}}</p>
-            <a routerLink="/course/1" routerLinkActive="active" class="btn btn-danger">Read more...</a>
+        <div class="col-md-3 col-sm-6 shadowcard" *ngFor="let jeansD of jeansData">
+          <div class="card" >
+            <div class="inner">
+              <img class="card-img-top" src="assets/images/shop-images/img1.jpg" alt="Card image cap">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center">{{jeansD.itemName}}</h5>
+              <p class="card-text text-center minimumDescription">{{jeansD.itemDescription}}</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item text-center">{{jeansD.itemPrice}}</li>
+              <li class="list-group-item text-center">{{jeansD.itemSize}}</li>
+            </ul>
+            <div class="card-body">
+              <a routerLink="/course/1" routerLinkActive="active" class="btn btn-danger m-auto d-block">Read more...</a>
+            </div>
           </div>
         </div>  
       </div>

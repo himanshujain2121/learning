@@ -1,8 +1,7 @@
 .banner {
   max-width: 100%;
-  height: 50vh;
 }
 
 .background-image {
-  background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+  height: 31vh;
 }

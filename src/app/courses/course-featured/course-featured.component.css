@@ -1,0 +1,45 @@
+.featured {
+    background-color:  rgb(103, 59, 161);
+}
+.inner {
+    overflow:hidden;
+}
+.inner img {
+    transition: all 1.5s ease;
+}
+.inner:hover img {
+    transform: scale(1.5);
+}
+.shadowcard:hover {
+    box-shadow: 0px 0px 20px;
+}
+.minimumDescription{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 75ch;
+}
+minimumDescription:hover {
+    visibility:visible;
+}
+
+@media(min-width:1200px) {
+  .featured{
+    background-color: lightgreen;
+  }
+}
+@media(min-width:992px) and (max-width:1199px) {
+  .featured{
+    background-color: rgb(9, 56, 9);
+  }
+}
+@media(min-width:768px) and (max-width:991px) {
+  .featured{
+    background-color: rgb(238, 221, 144);
+  }      
+}
+@media(max-width:767px) {
+  .featured{
+    background-color:rgb(170, 56, 56);
+  }
+}

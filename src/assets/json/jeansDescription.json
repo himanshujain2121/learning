@@ -2,24 +2,31 @@
   "items":[
     {
       "itemId": "1",
-      "itemName": "ragzo",
-      "itemDescription": "Slim men blue jeans",
+      "itemName": "Ragzo",
+      "itemDescription": "Slim Men Blue Jeans",
       "itemPrice":500,
       "itemSize":"28,30,32,34,36"
     },
     {
       "itemId": "2",
       "itemName": "Maniac",
-      "itemDescription": "Solid men hooded maroon T-Shirt",
+      "itemDescription": "Solid Men Hooded Maroon T-Shirt",
       "itemPrice":600,
       "itemSize":"28,30,32,34"
     },
     {
       "itemId": "3",
       "itemName": "Urbano",
-      "itemDescription": "Stripped men rounded jeans",
+      "itemDescription": "Stripped Men Rounded Jeans",
       "itemPrice":400,
       "itemSize":"28,30"
+    },
+    {
+      "itemId": "3",
+      "itemName": "Urbano fashion",
+      "itemDescription": "Stripped Rounded Jeans",
+      "itemPrice":550,
+      "itemSize":"26,28,30"
     }
   ]
 }
